@@ -13,7 +13,7 @@ public class Demo {
 
     public static SqlSessionFactory getSqlSessionFactory(){
         if(sqlSessionFactory == null){
-            String resource  = "spring.xml";
+            String resource  = "mybatis.xml";
             try {
                 Reader reader = Resources.getResourceAsReader( resource );
                 sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
