@@ -5,7 +5,7 @@
 <configuration>
 
     <!-- 加入DB配置文件 -->
-    <properties resource="dbconfig.properties"></properties>
+    <properties resource="mysql.properties"></properties>
 
     <!-- 配置配置项 -->
     <settings>
@@ -17,8 +17,9 @@
 
 
 
+    <!--名别名-->
     <typeAliases>
-        <package name="com.mooc.mybatis.bean"/>
+        <package name="com.imooc.mybatis.bean"/>
     </typeAliases>
 
     <plugins>
@@ -54,7 +55,7 @@
         <property name="SQL Server" value="sqlserver"/>
     </databaseIdProvider>
 
-<!--    <mappers>
+    <mappers>
         <mapper resource="mybatis/PersonMapper.xml"/>
-    </mappers>-->
+    </mappers>
 </configuration>

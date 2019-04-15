@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--命名空间建议设为接口名-->
 <mapper namespace="com.imooc.mybatis.dao.PersonMapper">
-    <resultMap id="resultMap" type="Person">
+    <resultMap id="resultMap" type="com.imooc.mybatis.bean.Person">
         <id property="id" column="id" javaType="Integer"/>
         <result property="username" column="username" javaType="String"/>
         <result property="email" column="email" javaType="String"/>

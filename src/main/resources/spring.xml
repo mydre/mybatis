@@ -55,7 +55,7 @@
         <property name="SQL Server" value="sqlserver"/>
     </databaseIdProvider>
 
-<!--    <mappers>
+    <mappers>
         <mapper resource="mybatis/PersonMapper.xml"/>
-    </mappers>-->
+    </mappers>
 </configuration>

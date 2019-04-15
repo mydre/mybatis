@@ -18,17 +18,17 @@
  
 	 
 	<typeAliases>
-		<package name="com.mooc.mybatis.bean"/>
+		<package name="com.imooc.mybatis.bean"/>
 	</typeAliases>
 
 	<plugins>
 		<plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
 
-		<!--<plugin interceptor="com.mooc.mybatis.interceptor.MyFirstInterceptor">
+		<!--<plugin interceptor="com.imooc.mybatis.interceptor.MyFirstInterceptor">
 			<property name="hello" value="world"></property>
 		</plugin>
 
-		<plugin interceptor="com.mooc.mybatis.interceptor.MySecondInterceptor">
+		<plugin interceptor="com.imooc.mybatis.interceptor.MySecondInterceptor">
 		</plugin>-->
 
 	</plugins>
