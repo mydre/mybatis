@@ -54,8 +54,7 @@
         <property name="Oracle" value="oracle"/>
         <property name="SQL Server" value="sqlserver"/>
     </databaseIdProvider>
-
     <mappers>
-        <mapper resource="mybatis/PersonMapper.xml"/>
+        <mapper resource="com/imooc/mybatis/dao/PersonMapper.xml"/>
     </mappers>
 </configuration>

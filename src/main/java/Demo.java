@@ -33,7 +33,7 @@ public class Demo {
     public void deletePerson(){
         SqlSession sqlSession = this.getSqlSessionFactory().openSession();
         PersonMapper personMapper = sqlSession.getMapper( PersonMapper.class );
-        personMapper.deletePerson( 3 );
+        personMapper.deletePerson( 4 );
         sqlSession.commit();
     }
 }

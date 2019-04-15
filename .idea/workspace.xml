@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e37e64e-5336-4a98-af9c-cdcd0e484b38" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/imooc/mybatis/dao/PersonMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mysql.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/PersonMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/mybatis/dao/PersonMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/mybatis/dao/PersonMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/PersonMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/PersonMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,8 +48,8 @@
         <counts>
           <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="7" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.1" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -70,14 +59,14 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="14" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="5" />
+          <entry key="Properties" value="6" />
           <entry key="SQL" value="2" />
-          <entry key="XML" value="16" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="540" />
+          <entry key="JAVA" value="548" />
           <entry key="Properties" value="53" />
           <entry key="XML" value="72" />
         </counts>
@@ -89,23 +78,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+            <state relative-caret-position="-1">
+              <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Demo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/imooc/mybatis/dao/PersonMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -124,15 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/PersonMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -181,9 +170,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mooc/mybatis/Tes.java" />
         <option value="$PROJECT_DIR$/src/main/resources/dbconfig.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/imooc/mybatis/dao/PersonMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mysql.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mysql.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/imooc/mybatis/dao/PersonMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Demo.java" />
       </list>
@@ -481,6 +470,8 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -545,22 +536,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="TODO_SCOPE" value="Project Files" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555341900135" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555342100332" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -965,22 +954,11 @@
       <workItem from="1555341403292" duration="62000" />
       <workItem from="1555341482895" duration="294000" />
       <workItem from="1555341784170" duration="3000" />
+      <workItem from="1555341809530" duration="240000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo_deletePerson - 2019.04.15 at 22h 51m 24s.xml">
-      <configuration name="Demo.deletePerson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_deletePerson - 2019.04.15 at 22h 53m 21s.xml">
-      <configuration name="Demo.deletePerson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_deletePerson - 2019.04.15 at 22h 53m 46s.xml">
-      <configuration name="Demo.deletePerson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_deletePerson - 2019.04.15 at 22h 57m 59s.xml">
-      <configuration name="Demo.deletePerson" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Demo_deletePerson - 2019.04.15 at 22h 58m 57s.xml">
       <configuration name="Demo.deletePerson" configurationId="JUnit" />
     </history-entry>
@@ -999,9 +977,21 @@
     <history-entry file="Demo_deletePerson - 2019.04.15 at 23h 21m 33s.xml">
       <configuration name="Demo.deletePerson" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Demo_deletePerson - 2019.04.15 at 23h 23m 48s.xml">
+      <configuration name="Demo.deletePerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_deletePerson - 2019.04.15 at 23h 24m 26s.xml">
+      <configuration name="Demo.deletePerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_deletePerson - 2019.04.15 at 23h 25m 04s.xml">
+      <configuration name="Demo.deletePerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_deletePerson - 2019.04.15 at 23h 27m 34s.xml">
+      <configuration name="Demo.deletePerson" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80052000" />
+    <option name="totallyTimeSpent" value="80292000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1016,7 +1006,7 @@
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" order="0" sideWeight="0.49384886" visible="true" weight="0.18957704" />
+      <window_info active="true" id="Project" order="0" sideWeight="0.49384886" visible="true" weight="0.1918429" />
       <window_info id="Structure" order="1" weight="0.24961714" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
@@ -1027,7 +1017,7 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.29083094" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.08166189" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.45238096" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1157,14 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/imooc/mybatis/dao/PersonMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1179,20 +1161,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/mybatis/dao/PersonMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1203,17 +1182,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/mybatis/dao/PersonMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/PersonMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state>
+          <caret selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/PersonMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/imooc/mybatis/dao/PersonMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
