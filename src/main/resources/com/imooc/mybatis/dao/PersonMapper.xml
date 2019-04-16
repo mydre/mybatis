@@ -10,7 +10,7 @@
         <result property="deptId" column="dept_id" javaType="Integer"/>
     </resultMap>
     <delete id="deletePerson" parameterType="Integer">
-        delete from person where id = #{id}
+        delete from person where id = #{i}
     </delete>
 
     <select id="selectByNameAndGender" resultMap="resultMap" >
@@ -21,4 +21,15 @@
         select * from person where username = #{name} and gender = #{sex}
     </select>
 
+    <select id="selectByNameAndGender3" resultMap="resultMap" >
+        select * from person where username = #{p1} and gender = #{p2}
+    </select>
+
+    <select id="selectByCollection" resultMap="resultMap" >
+        select * from person where id = #{list[1]}
+    </select>
+
+    <select id="selectByArray" resultMap="resultMap" >
+        select * from person where id = #{array[2]}
+    </select>
 </mapper>
