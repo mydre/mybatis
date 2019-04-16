@@ -20,4 +20,6 @@ public interface PersonMapper {
     List<Person> selectByCollection(Collection ilst);
 
     List<Person> selectByArray(Integer[] integers);
+
+    List<Person> selectByIds(Integer[] integers);
 }

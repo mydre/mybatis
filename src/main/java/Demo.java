@@ -5,13 +5,12 @@ import org.junit.Test;
 import java.util.*;
 
 public class Demo {
-    /**
-     * 根据ID删除所对应的Person数据
-     */
+
     private SqlSession sqlSession = SqlSessionFactoryUtil.getSqlSessionFactory().openSession();
     private PersonMapper personMapper = sqlSession.getMapper( PersonMapper.class );
+
     /**
-     * 传入单个参数
+     * 根据ID删除所对应的Person数据，传入单个参数
      */
     @Test
     public void deletePerson(){
@@ -62,6 +61,15 @@ public class Demo {
     @Test
     public void selectByArray(){
         List<Person> list = personMapper.selectByArray(new Integer[]{1,2,8});
+        System.out.println( list );
+    }
+
+    /**
+     * 以数组作为参数，使用foreach循环
+     */
+    @Test
+    public void selectByIds(){
+        List<Person> list = personMapper.selectByIds(new Integer[]{1,2,8});
         System.out.println( list );
     }
 }

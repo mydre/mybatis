@@ -32,4 +32,14 @@
     <select id="selectByArray" resultMap="resultMap" >
         select * from person where id = #{array[2]}
     </select>
+
+    <!--array充当数组方式时的key，idv表示每一项的值，index在list中充当索引，在map中充当key,通过,将每个#{div}分隔开
+    构造出 select * from person where id in (#{id1},#{id2},#{id3})的形式，从而形成sql语句-->
+    <select id="selectByIds" resultMap="resultMap" >
+        select * from person where id in
+        <foreach collection="array" item="idv" open="(" close=")" index="i" separator=",">
+            #{idv}
+        </foreach>
+    </select>
+
 </mapper>
