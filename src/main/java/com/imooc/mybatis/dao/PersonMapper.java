@@ -17,7 +17,7 @@ public interface PersonMapper {
 
     List<Person> selectByNameAndGender3(@Param( "p1" ) String name, @Param( "p2" ) String gender);
 
-    List<Person> selectByCollection(Collection ilst);
+    List<Person> selectByCollection(Collection list);
 
     List<Person> selectByArray(Integer[] integers);
 
