@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e37e64e-5336-4a98-af9c-cdcd0e484b38" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/mybatis/dao/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/mybatis/dao/PersonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestSql.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,14 +58,14 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="47" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Properties" value="13" />
+          <entry key="Properties" value="14" />
           <entry key="SQL" value="4" />
           <entry key="XML" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2315" />
+          <entry key="JAVA" value="2323" />
           <entry key="Properties" value="53" />
           <entry key="SQL" value="3" />
           <entry key="XML" value="624" />
@@ -79,14 +78,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestSql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="1095">
+              <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -138,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/dbconfig.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mysql.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SqlSessionFactoryUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/mybatis/bean/Person.java" />
@@ -148,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/JdbcUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/mybatis/util/JdbcUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mysql.properties" />
         <option value="$PROJECT_DIR$/src/main/java/TestSql.java" />
       </list>
     </option>
@@ -518,7 +526,7 @@
     <property name="TODO_SCOPE" value="Project Files" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555394311638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555398505154" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -555,7 +563,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSql.demo1">
+  <component name="RunManager" selected="JUnit.TestSql.testBatchUpdate">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -722,17 +730,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo.selectByCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Demo" />
-      <option name="METHOD_NAME" value="selectByCollection" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Demo.selectByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <option name="PACKAGE_NAME" value="" />
@@ -749,6 +746,17 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestSql" />
       <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSql.testBatchUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSql" />
+      <option name="METHOD_NAME" value="testBatchUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -862,19 +870,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MyBatisTest" />
-      <item itemvalue="JUnit.Demo.selectByCollection" />
       <item itemvalue="JUnit.Demo.selectByArray" />
       <item itemvalue="JUnit.Demo.selectByIds" />
       <item itemvalue="Application.JdbcUtil" />
       <item itemvalue="JUnit.TestSql.demo1" />
+      <item itemvalue="JUnit.TestSql.testBatchUpdate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSql.testBatchUpdate" />
         <item itemvalue="JUnit.TestSql.demo1" />
         <item itemvalue="Application.JdbcUtil" />
         <item itemvalue="JUnit.Demo.selectByIds" />
         <item itemvalue="JUnit.Demo.selectByArray" />
-        <item itemvalue="JUnit.Demo.selectByCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -918,18 +926,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo_selectByCollection - 2019.04.16 at 11h 21m 45s.xml">
-      <configuration name="Demo.selectByCollection" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_selectByCollection - 2019.04.16 at 11h 21m 59s.xml">
-      <configuration name="Demo.selectByCollection" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_selectByCollection - 2019.04.16 at 11h 35m 37s.xml">
-      <configuration name="Demo.selectByCollection" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo_selectByCollection - 2019.04.16 at 11h 35m 52s.xml">
-      <configuration name="Demo.selectByCollection" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Demo_selectByArray - 2019.04.16 at 11h 36m 32s.xml">
       <configuration name="Demo.selectByArray" configurationId="JUnit" />
     </history-entry>
@@ -948,9 +944,21 @@
     <history-entry file="TestSql_demo1 - 2019.04.16 at 13h 54m 29s.xml">
       <configuration name="TestSql.demo1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSql_demo1 - 2019.04.16 at 14h 54m 39s.xml">
+      <configuration name="TestSql.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSql_demo1 - 2019.04.16 at 14h 55m 17s.xml">
+      <configuration name="TestSql.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSql_demo1 - 2019.04.16 at 14h 55m 53s.xml">
+      <configuration name="TestSql.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSql_testBatchUpdate - 2019.04.16 at 14h 58m 17s.xml">
+      <configuration name="TestSql.testBatchUpdate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96646000" />
+    <option name="totallyTimeSpent" value="97016000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1075,13 +1083,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/PersonMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/mybatis/bean/Dept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1158,16 +1160,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JdbcUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JdbcUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/imooc/mybatis/dao/PersonMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -1182,13 +1175,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1232,11 +1218,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestSql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="1095">
+          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
