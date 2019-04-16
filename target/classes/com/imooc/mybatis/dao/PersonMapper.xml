@@ -42,4 +42,24 @@
         </foreach>
     </select>
 
+    <!--因为参数是List或Collection类型的，所以collocton="这里使用list或者collection都可以"-->
+    <insert id="insertPersons">
+        insert into person(username,email) values
+        <foreach collection="collection" separator="," index="i" item="person">
+            (#{person.username},#{person.email})
+        </foreach>
+    </insert>
+
+    <!--Mybatis 根据allowMultiQueries进行批量插入数据-->
+    <insert id="insertPersons2">
+        <foreach collection="list" item="person" separator=";">
+            insert into person(username,email) values (#{person.username},#{person.email})
+        </foreach>
+    </insert>
+
+    <!--使用executor进行批量数据插入-->
+    <insert id="insertByExecutorBatch" parameterType="Person">
+        insert into person(username,email) values(#{username},#{email})
+    </insert>
+
 </mapper>

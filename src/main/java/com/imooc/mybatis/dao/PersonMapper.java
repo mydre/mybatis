@@ -22,4 +22,10 @@ public interface PersonMapper {
     List<Person> selectByArray(Integer[] integers);
 
     List<Person> selectByIds(Integer[] integers);
+
+    void insertPersons(List<Person> list);
+
+    void insertPersons2(List<Person> list);
+
+    void insertByExecutorBatch(Person person);
 }

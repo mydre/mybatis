@@ -50,7 +50,7 @@ public class JdbcUtil {
 
     public static Connection getConnection(){
         Properties properties = new Properties();
-        InputStream is = JdbcUtil.class.getClassLoader().getResourceAsStream("mysql.properties");
+        InputStream is = JdbcUtil.class.getClassLoader().getResourceAsStream( "mysql2.properties" );
         try {
             properties.load(is);
         } catch (IOException e) {
