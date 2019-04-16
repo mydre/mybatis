@@ -46,4 +46,15 @@ public class Person {
     public void setDeptId(Integer deptId) {
         this.deptId = deptId;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", email='" + email + '\'' +
+                ", gender='" + gender + '\'' +
+                ", deptId=" + deptId +
+                '}';
+    }
 }
