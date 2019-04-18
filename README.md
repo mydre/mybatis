@@ -1,0 +1,2 @@
+使用Mybatis进行参数传递。首先在Dao接口中写方法，然后在mapper文件中写sql语句，最后可以进行调用Dao接口的方法，并传入适当的参数，进行sql语句的查询。
+当需要批量插入数据时，数据维护到数据库中的效率变得尤为重要。在使用JDBC进行批量插入数据时，可以采用for循环的方式，一条一条地插入数据，batchUpdate方法，当然，batchUpdate操作数据的效率和一条一条插入数据的效率不是同一个数量级的。使用Mybatis批量插入数据时，可以在mapper文件中使用foreach标签来完成，一种方式是：insert into table_name values(),(),(),(),...() 这种形式，第二种方式是：insert into table_name values(...),insert into table_name values(...),当使用第二种方式时，需要在数据库连接字段加上allowMultiQueries=true。
